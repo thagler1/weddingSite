@@ -1,0 +1,20 @@
+<template name="rsvpTemplate">
+    <div>
+    <form method="post"  id="rsvpform" class="main-contact-form wow fadeIn" data-wow-delay="0.2s">
+        <div class ="container">
+            <div class="row">
+        <input type="text" class="form-control col-md-7" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." />
+        <input type="text" class="form-control col-md-4" name="phone" placeholder="Your Phone Number *" id="phoneNumber" required data-validation-required-message="Please enter your phone number." />
+            </div>
+            <div class = "row">
+
+        <input type="text" class="form-control col-md-12" name="email" placeholder="Your Email Address *" id="email" required data-validation-required-message="Please enter your email address." />
+            </div>
+            <div class = "row">
+            <textarea name="msg" class="form-control col-md-12" id="msg" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+            </div>
+        <input class="btn btn-primary mt30" type="submit" name="submit" value="Submit" />
+        </div>
+    </form>
+    </div>
+</template>
