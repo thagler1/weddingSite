@@ -4,6 +4,7 @@
   "scripts": {
     "start": "meteor run"
   },
+
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "backstretch": "^1.2.2",
